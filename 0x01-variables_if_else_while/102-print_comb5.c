@@ -28,7 +28,7 @@ int main(void)
 						putchar(k + '0');
 						putchar(l + '0');
 					}
-					if (i + j + k + l != 35)
+					if (i + j + k + l >= 35)
 					{
 						putchar(',');
 						putchar(' ');
