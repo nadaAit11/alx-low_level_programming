@@ -21,7 +21,7 @@ int main(void)
 			{
 				for (l = 0 ; l < 10 ; l++)
 				{
-				if ((i != j || i != k || i != l) && (j != k || j != l || i != j ) && (j != k || k != l || i != k) && (l != k || j != l || i != l))
+				if ((i != j || i != k || i != l) && (i != k && j != l))
 				{
 					putchar(i + '0');
 					putchar(j + '0');
