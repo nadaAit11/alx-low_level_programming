@@ -27,11 +27,11 @@ int main(void)
 						putchar(' ');
 						putchar(k + '0');
 						putchar(l + '0');
-					}
-					if (i + j + k + l != 35 && (i != 0 && j != 0 && k != 0 && l != 0))
-					{
-						putchar(',');
-						putchar(' ');
+						if (i + j + k + l != 35)
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 				}
 			}
