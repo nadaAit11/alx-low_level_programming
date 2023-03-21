@@ -12,7 +12,7 @@ int main(void)
 
 	while (i < 8)
 	{
-		printf(c[i]);
+		putchar(c[i]);
 		i++
 	}
 	printf("\n");
