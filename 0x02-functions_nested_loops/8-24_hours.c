@@ -13,7 +13,7 @@ void jack_bauer(void)
 
 	while (h < 24)
 	{
-		if (m == 59)
+		if (m >= 59)
 		{
 			m = 0;
 			h++;
