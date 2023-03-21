@@ -11,13 +11,13 @@ void jack_bauer(void)
 	int s = 0;
 	int m = 0;
 	int h = 0;
-	
+
 	while (h < 24)
 	{
 		if (s == 9)
 		{
 			m++;
-			s=0;
+			s = 0;
 			if (m == 59)
 			{
 				s = 0;
