@@ -13,7 +13,7 @@ int main(void)
 	while (i < 8)
 	{
 		putchar(c[i]);
-		i++
+		i++;
 	}
 	printf("\n");
 	return (0);
