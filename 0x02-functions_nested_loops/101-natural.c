@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * natural - computes and prints the sum
+ * main - computes and prints the sum
  *
  * Return: 0
  */
