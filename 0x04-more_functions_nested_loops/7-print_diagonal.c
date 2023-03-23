@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - print a diagonal with \
+ * print_diagonal - prints a diagonal
  * @n : number of characters
  * Return:void
  */
