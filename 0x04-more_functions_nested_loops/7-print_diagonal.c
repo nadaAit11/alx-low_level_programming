@@ -3,7 +3,7 @@
 /**
  * print_diagonal - prints a diagonal
  * @n : number of characters
- * Return:void
+ * Return: void
  */
 
 void print_diagonal(int n)
@@ -20,8 +20,8 @@ void print_diagonal(int n)
 					_putchar('\\');
 				_putchar(' ');
 			}
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 	else
 		_putchar('\n');
