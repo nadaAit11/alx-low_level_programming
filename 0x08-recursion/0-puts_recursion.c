@@ -1,11 +1,9 @@
 #include "main.h"
-
 /*
  * _puts_recursion - function like puts();
- * @s: the string to print
+ * @s: variable
  * Return : Always 0 (Success)
  */
-
 void _puts_recursion(char *s)
 {
 	if (*s)
