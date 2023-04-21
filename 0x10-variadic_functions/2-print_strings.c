@@ -24,12 +24,12 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	for (i = 0 ; i < n ; i++)
 	{
-		if (va_arg(li, int) == NULL)
+		if (va_arg(li, char *) == NULL)
 			printf("nil");
 		if (i == 0)
-			printf("%s", va_arg(li, int));
+			printf("%s", va_arg(li, char *));
 		else
-			printf("%s%s", sep, va_arg(li, int));
+			printf("%s%s", sep, va_arg(li, char *));
 	}
 	va_end(li);
 	printf("\n");
