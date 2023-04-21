@@ -12,13 +12,14 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list li;
 	unsigned int i;
-	*char sep;
+	char *sep;
 
 	if (separator == NULL || *separator == 0)
 		sep = "";
 	else
-		sep = (*char) separator;
-
+		sep = (char *) separator;
+	
+	va_start(li, n);
 	for (i = 0 ; i < n ; i++)
 	{
 		if (i == 0)
