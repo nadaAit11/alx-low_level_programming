@@ -14,7 +14,7 @@ void free_listint(listint_t *head)
 	{
 		actual = head;
 		new = head->next;
-		while(new)
+		while (new)
 		{
 			free(actual);
 			actual = new;
